@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.troila.cmp.dao.VirtualHostDAO">
+
+	<select id="selectHost" parameterType="string" resultType="com.troila.cmp.dao.po.VirtualHostPO">
+		select virtual_id AS virtualId, hypervisor_name AS hypervisorName from cm_virtual_host where virtual_id = #{virtualId}
+	</select>
+	
+</mapper>
