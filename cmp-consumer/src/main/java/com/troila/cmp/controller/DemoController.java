@@ -1,8 +1,8 @@
 package com.troila.cmp.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
 
-import com.alibaba.dubbo.config.annotation.Reference;
 import com.troila.cmp.dto.DemoEntity;
 import com.troila.cmp.service.DemoService;
 

@@ -11,7 +11,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<dubbo-spring-boot.version>1.0.0</dubbo-spring-boot.version>
+		<dubbo-spring-boot.version>1.0.1</dubbo-spring-boot.version>
 	</properties>
 
 	<parent>
@@ -21,11 +21,11 @@
 	</parent>
 	<dependencies>
 	    <!-- Spring Boot Dubbo 依赖 -->
-		<dependency>
-			<groupId>org.lynee.dubbo.springboot</groupId>
-			<artifactId>spring-boot-starter-dubbo</artifactId>
-			<version>${dubbo-spring-boot.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>com.alibaba.spring.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>${dubbo-spring-boot.version}</version>
+        </dependency>
 		
 		<dependency>
 	  		<groupId>com.troila.cmp</groupId>

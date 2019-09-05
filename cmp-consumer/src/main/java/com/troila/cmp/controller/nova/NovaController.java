@@ -10,6 +10,7 @@ import com.troila.cmp.service.NovaService;
 @Component
 public class NovaController {
 	private static Logger logger = Logger.getLogger(NovaController.class);
+
 	@Reference
 	private NovaService novaService;
 	
